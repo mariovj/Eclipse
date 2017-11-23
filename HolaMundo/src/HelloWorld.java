@@ -11,15 +11,23 @@ public class HelloWorld {
 		String[] meses = {"Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre"};
 		String[] dias = {"Lunes","Martes","Miércoles","Jueves","Viernes","Sábado","Domingo"};
 		
-		System.out.print("Meses: "+meses[0]+" "+meses[10]+" "+meses[6]+" "+meses[11]+" "+ "y"+" "+meses[2]+
-				" y días de la semana: "+ dias[0]+" "+dias[5]+" " +dias[1]);
+		System.out.println("Meses: "+meses[0]+" "+meses[10]+" "+meses[6]+" "+meses[11]+" "+ "y"+" "+meses[2]+" y días de la semana: "+ dias[0]+" "+dias[5]+" " +dias[1]);
 		
 
+	// Exercise String
 		
-		
-		
-		
+		String palabra = "Hola";
+			if (palabra .equals ("Hola") || palabra .equals ("hola")) {
+				System.out.println("La variable vale Hola");	 
+			} else { 
+				System.out.println("La variable no vale hola");
+			}
+			
+	// Exercise LetterCounter
 	}
-
 }
+		
+			
+		
+			
 	
