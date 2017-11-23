@@ -1,16 +1,25 @@
 public class HelloWorld {
-
+	
+	// Exercise Hello world
 	public static void main(String[] args) {
 		System.out.println("Hello World!");
 		System.out.println("Hello World!");
-		double x = 8.99;
-		double y = 4.8776;
-		double z;
-		z = x+y;
-		System.out.println(z);
 		
-		// TODO Auto-generated method stub
+ 
+	// Exercise Arrays
+		
+		String[] meses = {"Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre"};
+		String[] dias = {"Lunes","Martes","Miércoles","Jueves","Viernes","Sábado","Domingo"};
+		
+		System.out.print("Meses: "+meses[0]+" "+meses[10]+" "+meses[6]+" "+meses[11]+" "+ "y"+" "+meses[2]+
+				" y días de la semana: "+ dias[0]+" "+dias[5]+" " +dias[1]);
+		
 
+		
+		
+		
+		
 	}
 
 }
+	
