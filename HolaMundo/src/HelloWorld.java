@@ -17,7 +17,7 @@ public class HelloWorld {
 	// Exercise String
 		
 		String palabra = "Hola";
-			if (palabra .equals ("Hola") || palabra .equals ("hola")) {
+			if (palabra .equals ("Hola") || palabra .equals ("hola")) { //usamos .equals para comparar cadenas de texto.NUNCA== 
 				System.out.println("La variable vale Hola");	 
 			} else { 
 				System.out.println("La variable no vale hola");
