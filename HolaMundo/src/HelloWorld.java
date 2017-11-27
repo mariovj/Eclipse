@@ -13,7 +13,7 @@ public class HelloWorld {
 		
 		System.out.println("Meses: "+meses[0]+" "+meses[10]+" "+meses[6]+" "+meses[11]+" "+ "y"+" "+meses[2]+" y días de la semana: "+ dias[0]+" "+dias[5]+" " +dias[1]);
 		
-
+		
 	// Exercise String
 		
 		String palabra = "Hola";
