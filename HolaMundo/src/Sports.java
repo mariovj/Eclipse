@@ -1,13 +1,12 @@
 
 public class Sports extends Car {
-	private String engine;
+	private String typeEngine;
 	int horsesPower;
 	
 
-	public Sports(String brand, String type, int speed, String engine, int horsesPower) {
-		
-		super (brand,type,speed);
-		this.engine= engine;
+	public Sports(String brand, String type, int speed, String typeEngine, int horsesPower) {
+		super(brand,type,speed);
+		this.typeEngine= typeEngine;
 		this.horsesPower = horsesPower;
 	}
 	

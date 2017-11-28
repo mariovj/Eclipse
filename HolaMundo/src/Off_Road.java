@@ -11,8 +11,8 @@ public class Off_Road extends Car{
 	}
 
 	public void advance() {
-		super.advance();
-		// System.out.println("Offroad car is advancing");
+		//super.advance();
+		System.out.println("Offroad car is advancing");
 	} 
 	
 	public void stop() {

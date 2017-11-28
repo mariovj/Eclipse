@@ -7,14 +7,14 @@ public class Test2 {
 				"Dacia",
 				"Lodgy",
 				10,
-				8,
-				"very big"
+				8,	
+			    "very big"
 				);		
 			
 			Off_Road skodaKodiaq = new Off_Road (
 					"Skoda",
 					"Kodiaq",
-					40,
+					40,	
 					"4x4",
 					"automatic"
 					);
@@ -22,7 +22,7 @@ public class Test2 {
 			Sports ferrariEnzo = new Sports (
 					"Ferrari",
 					"Enzo",
-					400,
+					400,					
 					"Motor345",
 					850		
 					);
@@ -36,9 +36,10 @@ public class Test2 {
 			//Methods.
 			
 			daciaLodgy.advance();
+			daciaLodgy.stop();
 			skodaKodiaq.advance();
 			ferrariEnzo.advance();
-			
+						
 			Car veryFastCar = compareCarSpeeds(cars);
 			System.out.println("The fastest car is " 
 					+ veryFastCar.getBrand()
