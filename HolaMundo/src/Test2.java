@@ -68,6 +68,5 @@ public class Test2 {
 				return fastestCar;
 								
 			}
-			
 }
 

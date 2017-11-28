@@ -16,8 +16,6 @@ public class Car {
 		
 	}
 	
-	
-	
 	public Car (String brand, String type, float speed) {
 		this.brand = brand; 
 		this.type = type;
