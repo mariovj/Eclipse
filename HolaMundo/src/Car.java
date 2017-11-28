@@ -25,8 +25,12 @@ public class Car {
 	public float getSpeed() {
 		return this.speed;
 	}
+	
+	public void advance() {
+		 System.out.println("Car is advancing");
+	} 
+	
+	public void stop() {
+		 System.out.println("car is stopped");
+	}
 }
-
-
-
-

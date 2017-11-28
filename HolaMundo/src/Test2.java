@@ -1,30 +1,43 @@
 
-public class Test {
+public class Test2 {
 
 	public static void main(String[] args) {
 		
-		Car seatPanda = new Car (
-				"Seat",
-				"Panda",
-				10
+		Familiar daciaLodgy = new Familiar (
+				"Dacia",
+				"Lodgy",
+				10,
+				8,
+				"very big"
 				);		
 			
-			Car seatIbiza = new Car (
-					"Seat",
-					"Ibiza",
-					40
+			Off_Road skodaKodiaq = new Off_Road (
+					"Skoda",
+					"Kodiaq",
+					40,
+					"4x4",
+					"automatic"
 					);
-			Car ferrariEnzo = new Car (
+			
+			Sports ferrariEnzo = new Sports (
 					"Ferrari",
 					"Enzo",
-					400
+					400,
+					"Motor345",
+					850		
 					);
 			
 			Car[] cars = {
-					seatPanda,
-					seatIbiza,
+					daciaLodgy,
+					skodaKodiaq,
 					ferrariEnzo
 			};
+			
+			//Methods.
+			
+			daciaLodgy.advance();
+			skodaKodiaq.advance();
+			ferrariEnzo.advance();
 			
 			Car veryFastCar = compareCarSpeeds(cars);
 			System.out.println("The fastest car is " 
@@ -54,5 +67,6 @@ public class Test {
 				return fastestCar;
 								
 			}
-						
-	}
+			
+}
+
