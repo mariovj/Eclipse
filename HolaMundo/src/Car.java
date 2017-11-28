@@ -16,19 +16,14 @@ public class Car {
 		
 	}
 	
-	public Car (String brand, String type, float speed) {
-		this.brand = brand; 
-		this.type = type;
-		this.speed = speed;
-		}
 	
-	public Car (String brand, String type, float speed, Engine engine) {
+	
+	public Car (String brand, String type, float speed) {
 		this.brand = brand; 
 		this.type = type;
 		this.speed = speed;
 		//this.engine= new Engine();
 		
-		//this.engine = engine;
 		}
 	
 	public String getBrand() {
@@ -44,12 +39,14 @@ public class Car {
 	}
 
 	public void advance() {
+		//this.engine.advance();
 		this.getEngine().advance();
 		System.out.println("Car is advancing");
 	} 
 	
 	public void stop() {
-		this.getEngine().stop();
-		//System.out.println("car is stopped");
+		//this.engine.stop();
+		this.getEngine().advance();
+		System.out.println("car is stopped");
 	}
 }
