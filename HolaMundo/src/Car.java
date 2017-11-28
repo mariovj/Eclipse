@@ -7,7 +7,7 @@ public class Car {
 	
 	private Engine getEngine() {
 		if (this.engine == null) {
-			this.engine =new Engine();//sirve para enlazar con Engine y soluciona el problema cuando es null
+			this.engine =new Engine();//crea el objeto Engine y soluciona el problema cuando es null
 		}
 		return this.engine;
 	}
